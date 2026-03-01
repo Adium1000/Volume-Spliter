@@ -1,43 +1,36 @@
 # 🎛️ Adrian's Volume Splitter V1.0
 
-**A simple passive 2-channel mono audio splitter with independent volume control for each output.**
+A passive 2-channel mono audio splitter that takes a single audio input and splits it into two independent outputs, each with its own volume potentiometer for individual level control.
 
+To use it, plug your audio source into the **Input jack (J3)**, then connect your two audio devices to **Output 1 (J1)** and **Output 2 (J2)**. Use the two potentiometers (**RV1**, **RV2**) to balance the volume on each output independently. Works best when the connected devices have any form of preamplification.
 
-This project is a **passive audio splitter** designed to duplicate a single mono audio input into two independent audio outputs, each with its own volume potentiometer for balance control.
+I made this because I needed to share a single audio source between two devices simultaneously without buying an expensive active splitter. I built a prototype, it worked great for my use case, and then I designed a proper PCB for it.
 
->  **Note:** This splitter does **not** distinguish between Left/Right stereo channels — it mixes both channels into a single mono signal. It works best when the connected output device uses any form of preamplification.
+>  This splitter does **not** separate L/R stereo channels — it mixes both into a single mono signal on each output.
 
-The board was designed in **KiCad** and features rounded PCB corners, custom silkscreen art, and a clean layout with through-hole TRS jacks and panel-mount potentiometers.
+---
+
+## Previews
+
+### 3D Model
+![PCB 3D Render](GP/PCB3D.png)
+
+### PCB Layout
+![PCB Editor](GP/PCBEDITOR.png)
+
+### Schematic
+![Schematic](GP/SCHEMATIC.png)
 
 ---
 
 ## BOM
 
-- **Input (J3 - Mono):** Accepts a mono or mixed stereo signal via a TRS jack.
-- **Output 1 (J1) & Output 2 (J2):** Two independent TRS outputs.
-- **RV1 & RV2:** Potentiometers for independent volume control on each output channel.
-- **4x Mounting Holes** for easy panel or enclosure mounting.
-
+| # | Component | Value / Description | Qty | 
+|---|-----------|---------------------|-----|
+| J1, J2 | TRS Jack | 3.5mm or 6.35mm Through-Hole Stereo Jack (Output) | 2 
+| J3 | TRS Jack | 3.5mm or 6.35mm Through-Hole Stereo Jack (Input) | 1 
+| RV1, RV2 | Potentiometer | R_Potentiometer, panel mount (e.g. 10kΩ) | 2 
+| H1–H4 | Mounting Hole | M3 screw hole, no copper | 4 
+| — | PCB | Adrian's Volume Splitter V1.0, Rev 1 | 1
 ---
-
-## Project Images
-
-###  Schematic
-> Inputs, outputs, potentiometers and mounting holes wired up in KiCad.
-
-![Schematic](GP/SCHEMATIC.png)
-
----
-
-### PCB Editor View
-> Routed tracks, silkscreen art, rounded corners and component placement.
-
-![PCB Editor](GP/PCBEDITOR.png)
-
----
-
-### 3D Render
-> 3D preview of the finished board from KiCad's 3D viewer.
-
-![PCB 3D Render](GP/PCB3D.png)
 
