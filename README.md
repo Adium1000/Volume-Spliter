@@ -1,12 +1,12 @@
 # 🎛️ Adrian's Volume Splitter V1.0
 
-A passive 2-channel mono audio splitter that takes a single audio input and splits it into two independent outputs, each with its own volume potentiometer for individual level control.
+A simple passive 2-channel mono audio splitter. Connects a single audio source and splits it into two separate outputs. Both outputs have their own volume control.
 
-To use it, plug your audio source into the **Input jack (J3)**, then connect your two audio devices to **Output 1 (J1)** and **Output 2 (J2)**. Use the two potentiometers (**RV1**, **RV2**) to balance the volume on each output independently. Works best when the connected devices have any form of preamplification.
+To use this module, plug your audio source into the **Input jack (J3)**. Then plug your two devices into the **Output 1 (J1)** and **Output 2 (J2)** connectors. Finally, use the two pots **RV1** and **RV2** to adjust the volume of each output independently. Works best if your devices have a kind of preamplifier.
 
-I made this because I needed to share a single audio source between two devices simultaneously without buying an expensive active splitter. I built a prototype, it worked great for my use case, and then I designed a proper PCB for it.
+This module is a response to my own need for an inexpensive way to share a single audio source between two devices at once. I made this module, it works perfectly for my needs, so I made a nice PCB for it too.
 
->  This splitter does **not** separate L/R stereo channels — it mixes both into a single mono signal on each output.
+> This is a mono splitter. This splitter does not separate left/right stereo channels. Both channels are combined into a single mono signal.
 
 ---
 
