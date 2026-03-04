@@ -1,0 +1,7 @@
+﻿Ref;Component;Description;Qty;Unit Price (USD);Total (USD);Link
+J1, J2, J3;TRS Jack;3.5mm Through-Hole Stereo Jack;3;$0,40;$1,20;https://ardushop.ro/ro/conectori-tht/344-mufa-jack-audio-35mm-6427854003775.html
+RV1, RV2;Potentiometer;Linear 50kΩ, panel mount;2;$0,29;$0,58;https://ardushop.ro/ro/componente-discrete/280-376-potentiometru-liniar-10k-50k-100k.html#/158-valoare_rezistenta-50k
+—;Knobs;Potentiometer knob cap, White;2;$0,48;$0,96;https://ardushop.ro/ro/componente-discrete/2247-1291-capac-pentru-potentiometru-encoder-buton.html#/3-culoare-alb
+H1–H4;Mounting Hole;M3 screw hole, no copper;4;—;—;—
+—;PCB;Adrian's Volume Splitter V1.0, Rev 1;1;$11,50;$11,50;https://jlcpcb.com
+;;;;TOTAL;$14,24;
